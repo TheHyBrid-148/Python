@@ -30,7 +30,6 @@ print("The sum of ", x, " and ", y, " is ", sum)
 
 # Lesson 2 - Data types and Variables
 
-
 # Code 1 - Assigning values
 age = 25 # integers
 height = 175
@@ -111,3 +110,117 @@ print(int_num)
 str_float = "3.14"
 float_num = float(str_float)
 print(float_num)
+##############################
+
+# Lesson 3 - Operators and Expressions
+
+# Code 1 - Arithmetics
+a = 10
+b = 5
+
+add = a + b
+print(add)
+subtract = a - b
+print(subtract)
+multiply = a * b
+print(multiply)
+divide = a / b
+print(divide)
+modulo = a % b
+print(modulo)
+exponent = a ** b
+print(exponent)
+
+# Code 2 - Comparison Operators
+a = 10
+b = 5
+
+greater = a > b # True
+less = a < b # False
+greater_or_equal = a >= b # True
+less_or_equal = a <= b # False
+equal = a == b # False
+not_equal = a != b # True
+
+# Code 3 - Logical operators
+a = True
+b = False
+
+logical_and = a and b # False
+logical_or = a or b # True
+logical_not_a = not a # False
+logical_not_b = not b # True
+
+# Code 4 - Compound operators
+a = 10
+b = 5
+
+a += b # a = a + b
+print(a) # 15
+
+a -= b # a = a - b
+print(a) # 10
+
+a *= b # a = a * b
+print(a) # 50
+
+a /= b # a = a / b
+print(a) # 10.0
+
+a %= b # a = a % b
+print(a) # 0.0
+
+a **= b # a = a ** b
+print(a) # 0.0
+
+# Code 5 - Operator precedence
+result = 10 + 2 * 3 - 4 / 2 ** 2
+print(result) # 11.0
+##############################
+
+# Lesson 4 - Strings
+
+# Code 1 - String concatenation
+first = "John"
+last = "Cole"
+full = last + " " + last
+print(full)
+
+# Code 2 - String Indexing and Slicing
+text = "Hello, world"
+print(text[5]) # ,
+print(text[3:9]) # llo,wo
+
+# Code 3 - String length
+text = "Python"
+length = len(text)
+print(length) # 6
+
+# Code 4 - Converting Case
+text = "Python Python"
+print(text.upper()) # PYTHON PYTHON
+print(text.lower()) # python python
+print(text.capitalize()) # Python python
+
+# Code 5 - String formatting
+name = "Alice:
+age = 17
+print("My name is {} and I am {} years old.".format(name, age))
+##############################
+
+# Lesson 4 - User Input
+
+# Code 1 - Basic input
+name = input("Enter your name: ")
+print("Hello " + name, "!")
+
+# Code 2 - Numeric Input and Conversion
+age = int(input("Enter your age: "))
+years_left = 100 - age
+print("You have ", years_left, "years left until you turn 100")
+
+# Code 3 - Handling Float-point input
+height = float(input("Enter your height in meters: "))
+weight = float(input("Enter your weight in kilos: "))
+bmi = weight / (height ** 2) 
+print("Your BMI is: ", bmi)
