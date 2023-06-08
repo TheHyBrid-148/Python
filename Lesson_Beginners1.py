@@ -208,7 +208,7 @@ age = 17
 print("My name is {} and I am {} years old.".format(name, age))
 ##############################
 
-# Lesson 4 - User Input
+# Lesson 5 - User Input
 
 # Code 1 - Basic input
 name = input("Enter your name: ")
@@ -224,3 +224,21 @@ height = float(input("Enter your height in meters: "))
 weight = float(input("Enter your weight in kilos: "))
 bmi = weight / (height ** 2) 
 print("Your BMI is: ", bmi)
+
+# Code 4 - Multiple inputs with splitting
+numbers = input("Enter a list of numbers, separated by spaces: ")
+number_list = numbers.split()
+sum = 0
+for num in number_list:
+  sum += int(num)
+print("The sum of the numbers is: ", sum)
+
+# Code 5 - Boolean input
+answer = input("Are you ready? (Yes/No): ")
+if answer.lower() == "yes":
+  print("Let's start")
+else:
+  print("Take your time.")
+###################################
+
+# End of Section 1
