@@ -43,3 +43,9 @@ if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
   print("It's a leap year.")
 else:
   print("It's not a leap year.")
+
+# Code 5 - Ternary operator
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter a second number: "))
+meximum = num1 if num1 > num2 else num2
+print("The maximum number is: ", maximum)
