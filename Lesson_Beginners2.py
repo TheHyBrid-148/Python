@@ -80,3 +80,122 @@ for num in range(1, 11):
   if num % 2 == 0:
     continue
   print(name)
+##################################
+
+# Lesson 8 - Lists
+
+# Code 1 - Accessing lists
+items = ["apple", "orange", "banana"]
+print(items[0])
+print(items[2])
+
+# Code 2 - Modifying (Appending and Removing)
+items = ["apple", "orange", "banana"]
+items.append("graps")
+print("items")
+
+items.remove("orange")
+print(items)
+
+# Code 3 - List slicing and indexing
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sliced = numbers[2:6]
+print(sliced)
+
+numbers[0] = 11
+print(numbers)
+
+# Code 4 - Length of a List
+items = ["apple", "banana", "orange"]
+print(len(items))
+
+# Code 5 - Iterating
+items = ["apple", "banana", "orange"]
+for item in items:
+  print(item)
+####################################
+
+# Lesson 9 - Tuples
+
+# Code 1 - Accessing tuples
+items = ("apples", "oranges", "banana", "grapes")
+print(items[0])
+print(items[3])
+
+# Code 2 - Unpacking tuples
+point = (3, 4)
+x, y = point
+
+print(x)
+print(y)
+
+# Code 3 - Iterating
+items = ("apples", "oranges", "banana", "grapes")
+for item in items:
+  print(item)
+  
+# Code 4 - Tuple methods
+items = ("apples", "oranges", "banana", "grapes")
+count = items.count("oranges")
+index = items.index("grapes")
+########################################
+
+# Lesson 10 - Dictionaries
+
+# Code 1 - Accessing dictionaries
+person = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
+print(person["name"])
+print(person["age"])
+print(person["city"])
+
+# Code 2 - Modifying
+person = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
+
+person["age"] = 31
+person["city"] = "Los Angeles"
+print(person)
+
+# Code 3 - Adding and deleting items
+person = {
+  "name": "John",
+  "age": 30
+}
+person["city"] = "New York"
+print(person)
+
+def person["age"]
+print(person)
+
+# Code 4 - Iterating over dictionaries
+person = {
+  "name": "John",
+  "age": 30.
+  "city": "New York"
+}
+
+for key in person:
+  print(key)
+  
+for value in person.values():
+  print(value)
+  
+for key, value in person.items():
+  print(key, value)
+  
+# Code 5 - Checking dictionary key existence
+person = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
+
+print("name" in person)
+print("country" in person)
