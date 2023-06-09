@@ -203,7 +203,7 @@ print(text.lower()) # python python
 print(text.capitalize()) # Python python
 
 # Code 5 - String formatting
-name = "Alice:
+name = "Alice"
 age = 17
 print("My name is {} and I am {} years old.".format(name, age))
 ##############################
