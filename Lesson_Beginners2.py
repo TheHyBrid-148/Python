@@ -49,3 +49,34 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter a second number: "))
 meximum = num1 if num1 > num2 else num2
 print("The maximum number is: ", maximum)
+###################################
+
+# Lesson 7 - Loops (for and while)
+
+# Code 1 - For loop
+for num in range(1, 6):
+  print(num)
+  
+# Code 2 - Nested for loop
+for i in range(1, 6):
+  for j in range(1, 6):
+    print(i * j, end="\t")
+    print()
+    
+# Code 3 - While loop with condition
+num = 2
+while num <= 10:
+  print(num)
+  num += 2
+  
+# Code 4 - Break statement
+for num in range(1, 6):
+  print(num)
+  if num == 3:
+    break
+    
+# Code 5 - Continue statement
+for num in range(1, 11):
+  if num % 2 == 0:
+    continue
+  print(name)
