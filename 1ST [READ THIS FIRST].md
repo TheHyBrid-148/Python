@@ -17,5 +17,7 @@ For MacOS:
    information if it says Intel, if not you have an Apple-based system
 5. Once Pycharm has been set, you're good to go.
 
+-------------------------------------------
+If you want an easier way, you can just simply download visual studio code.
 
 Have fun on the full overview and I hope you learn something/a lot. :))
